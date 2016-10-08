@@ -1,0 +1,92 @@
+/*cssreset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td,b { margin:0; padding:0; }
+body { color: #3C3C3C; font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; }
+img { border: none; display: block; }
+ul,ol { list-style: none; }
+a { color: #6C6C6C; text-decoration: none; }
+a:hover { color: #FF4400; }
+input,textarea { outline: none; }
+textarea { resize: none; }
+body{padding:70px 0 0 0;}
+
+
+/*headr*/
+.header{width:100%; height:34px; background:#FFF; position:fixed; top:0; left:0; z-index:9999; padding:18px 0 18px 0; box-shadow:0px 10px 5px rgba(0,0,0,0.23); overflow:hidden;}
+.box{width:1060px; margin:0 auto; overflow:visible;}
+.logo{float:left;}
+.txt{height:34px; line-height:34px; color:#8cc83c; float:left; border-left:1px #8cc83c solid; margin:0 0 0 15px; padding:5px 0 0 15px; font-size:14px;}
+.nav{float:left; height:34px; line-height:34px; margin:0 0 0 100px; padding:5px 0 0 0; }
+.nav li{float:left; margin:0 10px; display:inline-block;}
+.nav li a{font-size:13px; font-family:"微软雅黑"; color:#333; height:20px; line-height:20px;}
+.nav li a:hover{text-decoration:underline; color:#8cc83c;}
+.right{ height:34px; line-height:34px; float:right;}
+.right a{font-size:14px; font-family:"微软雅黑";}
+.right a:hover{text-decoration:underline; color:#8cc83c;}
+.right .line{font-weight:normal;}
+
+/*banner*/
+.banner{height:450px; width:100%; position:relative; }
+.banner ul{position:relative;}
+.banner ul .green{width:100%; background:#8cc83c;}
+.banner ul .yellow{width:100%; background:#eac451;}
+.banner ul li{margin:0 auto; position:absolute; left:0px; top:0px; }
+.banner ul li img{margin:0 auto; display:none;}
+.banner ol{position:absolute; bottom:15px; left:50%; margin-left:-30px;}
+.banner ol li { float:left; width: 10px; height: 10px; line-height:20px; border:1px solid #ccc; background: #fff; text-align:center; margin: 0 0 0 10px; cursor: pointer; border-radius:50%; box-shadow:0 1px 5px rgba(0,0,0,0.3);}
+.banner ol .current { background:#06C; color:#fff; }
+
+/*漂浮导航*/
+
+
+.navR{position:fixed; right:62.5px; top:30%; z-index:800; }
+.erweima{position:absolute; left:-130px; top:0px; display:none;}
+.navR ul li a{display:block;}
+.navR ul .phone a{background:url(../img/index.png)  -60px -140px no-repeat; width:50px; height:50px; margin:0 0 15px 0; cursor:pointer;}
+.navR ul .phone a:hover{background-position: -139px -140px;}
+.navR ul .email a{background:url(../img/index.png)  -60px -199px no-repeat; width:50px;height:50px; margin:0 0 15px 0; cursor:pointer;}
+.navR ul .email a:hover{background-position: -140px -199px;}
+.navR ul .huojian {background:url(../img/index.png)  -60px -260px no-repeat; width:50px; height:50px; cursor:pointer; display:none;}
+.navR ul .huojian :hover{background-position:-140px -260px;}
+
+/*four*/
+
+.four{padding:50px 0 50px 0;  width:100%; position:relative;}
+.four .top{width:1060px; margin:0 auto; overflow:hidden;}
+.four .top img{float:right;}
+.four .top .topL{ padding:100px 0 0; float:left;}
+.four .top .topL b{background:url(../img/index.png) no-repeat -52px 0px; width:80px; height:115px; display:block; float:left;}
+.four .top .topL h3{font-size:30px; float:left; display:block; padding:25px 0 0 15px;}
+.four ul{width:1060px; margin:0 auto; margin-top:50px; overflow:hidden;}
+.four ul li{float:left; text-align:center;}
+.four ul li h3{width:181px; height:86px; padding:20px 0 0 0; font-size:13px; border:1px #CCCCCC solid; color:#999;}
+.four ul b{background:url(../img/index.png) 0 -36px no-repeat;  width:35px; height:25px; float:left; margin:41px 20px 0 20px; }
+.four ul li a{height:25px; line-height:25px; margin:15px auto; padding:0 10px; border-radius:3px; display:inline-block; background:#8cc83c; color:#FFF; cursor:auto;}
+.four ul li a:hover{background:#390;}
+.four .bottom{width:30px; height:30px; position:absolute; bottom:-15px; left:50%; margin-left:15px; transform:rotate(45deg); z-index:9; background:#FFF; display:block;}
+
+/*three*/
+.three{  width:100%;  background:#e7e7e7; padding:30px 0; position:relative; }
+.three .con{width:1060px; margin:0 auto;}
+.three .conT{width:580px; font-size:30px; margin:0 auto; text-align:left;}
+.three .conT  b{background:url(../img/index.png) -132px 0px no-repeat; width:81px; height:117px; display:inline-block;}
+.three .conC{width:580px; margin:0 auto; text-align:left; font-size:16px;}
+.three .con img{padding:97px 0;}
+.three .bottom{width:30px; height:30px; position:absolute; bottom:-15px; left:50%; margin-left:15px; transform:rotate(45deg); z-index:9; background:#e7e7e7; display:block;}
+.three .conB{height:650px; position:relative; bottom:100px; display:none;}
+.three .conB .shang{position:absolute; z-index:100; box-shadow:20px 20px 50px rgba(0, 0,0,0.23); left:350px;}
+.three .conB .xia{position:absolute; z-index:99; box-shadow:20px 20px 50px rgba(0, 0,0,0.23); left:150px;}
+
+/*two*/
+
+.two{padding:70px 0 160px 0 ; width:100%;  overflow:hidden; position:relative;}
+.twoCon{width:1060px; margin:0 auto; }
+.two .twoT {width:690px; font-size:30px; margin:0 auto; text-align:left;}
+.two .twoT b{background:url(../img/index.png) -214px -127px no-repeat; width:78px; height:113px; display:inline-block;}
+.two  h3{ margin:0 auto; text-align:center; color:#999; font-size:16px; }
+.two  .btn{height:25px; line-height:25px; margin:15px auto; padding:0 10px; border-radius:3px; display:inline-block; background:#8cc83c; color:#FFF; cursor:auto;}
+.two .twoLogo{width:100%; margin:0 auto; padding:60px 0 0 0; height:200px; overflow:visible;}
+.two .twoLogo ul{ height:200px; margin:60px auto 0 40px;}
+.two .twoLogo ul li{float:left; margin:0 auto; width:170px; height:200px; line-height:200px; text-align:center;}
+.two .twoLogo ul li img{transition: all 0.2s  ease-in; border:1px #999999 solid; border-radius:50%; text-align:center;}
+.two .twoLogo ul li img:hover{transform:scale(1.5,1.5);}
+.two .twoB{width:30px; height:30px; position:absolute; bottom:-15px; z-index:9; left:50%; margin-left:15px; transform:rotate(45deg); background:#666; display:block;}
